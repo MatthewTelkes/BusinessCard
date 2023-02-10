@@ -1,0 +1,27 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+    background: #cdefe1;
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: rgb(0, 182, 133) 10px solid;
+    text-align: center;
+}
+.card:hover {
+    background: white;
+    border-bottom: black 10px solid;
+    border-top: black 1px solid;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    transition: all 2s;
+    padding: 30px;
+}
+img {
+    width: 150px;
+    border: black solid 2px;
+}
